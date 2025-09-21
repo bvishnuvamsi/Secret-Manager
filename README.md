@@ -12,6 +12,7 @@ A step-by-step, beginner-friendly build of a small Secrets Manager that stores a
 ### Notebooks are the primary format. If you prefer running from Terminal, you can convert notebooks to .py:
 
 > jupyter nbconvert --to script step_2_add_Encryption.ipynb
+
 > python3 step_2_add_Encryption.py
 
 ### Requirements
@@ -125,6 +126,7 @@ File: step_3_database_connection.ipynb
 - Notebooks are JSON; don’t run them with Python directly. Use Jupyter or convert to .py:
 
 > jupyter nbconvert --to script step_2_add_Encryption.ipynb
+
 > python3 step_2_add_Encryption.py
 
 - “Salt must be bytes and at least 8 bytes long.”
